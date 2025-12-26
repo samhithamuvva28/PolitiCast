@@ -42,7 +42,6 @@ The project implements a **production-style data pipeline** using **Apache Airfl
 - Filters to political content
 - Writes monthly CSVs to: s3://<bucket>/NYTData/<year>/<month>.csv
 
-- 
 ### Incremental Load
 - **Airflow DAG:** `incremental_load_csv_s3`
 - Merges new data with existing snapshots
